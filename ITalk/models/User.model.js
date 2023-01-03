@@ -1,7 +1,5 @@
 const { Schema, model } = require("mongoose");
 
-// TODO: Please make sure you edit the user model to whatever makes sense in this case
-// Allow to have few role
 const userSchema = new Schema({
   name: {
     first: {
